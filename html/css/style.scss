@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0px !important;
+    padding:0px;
+}
+
+
+.container img {
+    width: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin:0px;
+    display: block;
+}
+
+.navigation {
+    position: absolute;
+    transform: translate(60px, -160%);
+    
+    
+}
+
+nav ul {
+    text-decoration:  none;
+}
+
+nav ul li {
+    color:rgb(204, 132, 23);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    transition-duration: 0.5s; 
+    text-decoration:  none;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+#trapholt:hover {
+    color:#0C4C8A;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#udstillingen:hover {
+    color:#5587A2;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#aktiviteter:hover {
+    color:#F6D258;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+ 
+}
+
+#information:hover {
+    color:#88B14B;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#cafe:hover {
+    color:#EF562D;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#webshop:hover {
+    color:#EFCEC5;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+    
+}
+
+
+
+
+/* --------- udstillingen ---------- */
+
+.udtillingenbaggrund {
+    background-color: #5587A2;
+    width: 100%;
+    height: 3325px;
+    margin:0;
+    padding-top:30px;
+}
+
+
+
+.headerboks {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headertekststor {
+    color: #000000;
+    font-size:34px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headertekst {
+    color: #000000;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.slideshows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySlides {
+    display:none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.citatbaggrund {
+    background-color: #ffffff;
+    opacity: 50%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    
+    
+    
+}
+
+.citattekstboks {
+    
+    margin-left:400px;
+}
+
+.vernersudstilling {
+    padding-top:100px;
+    color: #000000;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.citattekst {
+    padding-top:20px;
+    color: #000000;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    z-index:-1000;
+    font-weight: 400;
+    
+}
+
+.citattekst span {
+    font-weight: bold;
+    z-index:-1000;
+    margin-bottom: 100px;
+}
+
+.vernerpantonoverskrift {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    
+}
+
+.headertekstverner {
+    color: #000000;
+    font-size:34px;
+    font-family: 'Oswald', sans-serif;
+  
+}
+
+.opaboks {
+    background-color: #ffffff;
+    opacity: 50%;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    z-index: -999;
+ 
+}
+
+.venstreboks {
+    width: 55%;
+    height: 400px;
+    margin-left:138px;
+    margin-top:100px;
+  
+}
+
+.verneroverskrift {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom:25px;
+
+}
+
+.vernerbrødtekst1 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.startenheadertekst {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:25px;
+}
+
+.startenbrødtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.modstandsheder {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:25px;
+}
+
+.modstandbrødtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.højreboks {
+    width:45%;
+    height: 400px;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    padding-left: 75px;
+  
+}
+
+.højreboks img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.vernerbilledeafsnit {
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+
+}
+
+
+/* --------- om trapholt ---------- */
+
+.omtrapholtbaggrund {
+    background-color: #0C4C8A;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding-top:1.5%;
+    padding-bottom: 1.5%;
+}
+
+.trapholtmuseumbillede {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+.trapholttekstboks {
+display: flex;  
+justify-content: center;
+width: 100%;
+height: 300px;
+text-align: center;
+
+}
+
+.trapholttekst {
+    color:#F6D258 ;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+}
+
+
+.trapholtboks2 {
+    margin-top:30px;
+    height: 850px;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 50%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.trapholtvenstre {
+    width: 50%;
+    height: 1200px;
+    margin-left: 100px;
+    
+}
+
+.toptekst {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+}
+
+.trapholtarkitektur {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:25px;
+}
+
+.arkiteksturtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.vernerpantonmidheader {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3px;
+    margin-bottom:25px;
+}
+
+.vernerpantonmidtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.praktiskheader {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:25px;
+}
+
+.prakrisktekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.headerbokshistorie {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+.opahistorie {
+    margin-top:30px;
+    height: 850px;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 50%;
+    display: flex;
+
+}
+
+.historievenstre {
+    padding-top:100px;
+    margin-left: 100px;
+    width: 30%;
+}
+
+.gustavlindbilledetekst {
+    padding-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.historiehøjre {
+    padding-top:100px;
+    width: 50%;
+}
+
+.historietoptekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding-bottom:120px;
+}
+
+.historiebundtekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+/* --------- Information ---------- */
+
+.informationbaggrund {
+    background-color:#88B14B ;
+    width: 100%;
+    height: 10000px;
+}
+
+.headerboksinformation {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+}
+
+.headeråbning {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+    font-size: 34;
+    font-family: 'Oswald', sans-serif;
+}
+
+.åbningstekst {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#infobillede {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.åbningstiderboks {
+    position: absolute;
+    transform: translate(60%, -100.6%);
+    width: 300px;
+    height: 700px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+
+table {
+    display: flex;    
+    justify-content: center;      
+    border: none;     
+    font-family: 'Quicksand', sans-serif;    
+    line-height: 10px;
+    border-spacing: 75px;
+}
+
+#dage {
+    font-weight: bold;
+}
+
+.infopa {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 550px;
+    background-color: #ffffff;
+    opacity: 50%;
+
+}
+
+.tekstboksåben {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-left: 20%;
+    
+}
+
+.venstresæråben {
+    width: 50%;
+}
+
+.særåbenheader {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    margin-top:10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    
+}
+
+.særåbentekst {
+    line-height: 60px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif; 
+
+}
+
+.højresæråben {
+    width: 50%;
+    
+}
+.helligåbenheader {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    margin-top:10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+
+}
+
+.helligåbentekst {
+    line-height: 60px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#lampemedcirkler {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.priserboks {
+    position: absolute;
+    transform: translate(250%, -100.6%);
+    width: 350px;
+    height: 700px;
+    background-color: #ffffff;
+    border-spacing: 10px;
+    padding:0;
+    margin:0;
+    
+}
+
+table {
+    display: flex;    
+    justify-content: center;      
+         
+    font-family: 'Quicksand', sans-serif;    
+    line-height: 20px;
+    border-spacing: 75px;
+}
+
+#entre {
+    
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+#pris {
+    text-align: end;
+    justify-content: end; 
+     
+}
+
+
