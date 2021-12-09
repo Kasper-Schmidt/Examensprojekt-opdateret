@@ -104,7 +104,7 @@ nav ul li a {
     width: 100%;
     height: 3325px;
     margin:0;
-    padding-top:30px;
+    padding-top:1.5%;
 }
 
 
@@ -303,6 +303,7 @@ nav ul li a {
     margin:0;
     padding-top:1.5%;
     padding-bottom: 1.5%;
+    z-index: 1;
 }
 
 .trapholtmuseumbillede {
@@ -352,6 +353,7 @@ text-align: center;
     font-size: 30px;
     margin-top: 100px;
     margin-bottom: 25px;
+    z-index: 10000;
 
 }
 
@@ -372,7 +374,7 @@ text-align: center;
 .vernerpantonmidheader {
     color:#000000;
     font-family: 'Oswald', sans-serif;
-    font-size: 3px;
+    font-size: 30px;
     margin-bottom:25px;
 }
 
@@ -582,7 +584,7 @@ table {
 
 .priserboks {
     position: absolute;
-    transform: translate(250%, -100.6%);
+    transform: translate(350%, -100.6%);
     width: 350px;
     height: 700px;
     background-color: #ffffff;
@@ -594,8 +596,7 @@ table {
 
 table {
     display: flex;    
-    justify-content: center;      
-         
+    justify-content: center;         
     font-family: 'Quicksand', sans-serif;    
     line-height: 20px;
     border-spacing: 75px;
@@ -615,3 +616,68 @@ table {
 }
 
 
+.thetabledouble {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+    opacity: 50%; 
+    display: flex;
+    justify-content: center;
+
+}
+
+#infotabel {
+width: 40%;
+
+}
+
+
+#overskriftinfo {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+#underskriftinfo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.højreinfoboks {
+    width: 20%;
+    margin-top:3%;
+}
+
+.højreinfotekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 1.5%;
+}
+
+
+.praktiskopaboks {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 1150px;
+    background-color: #ffffff;
+    opacity: 50%; 
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* --------- Cafe Gustav Lind ---------- */
+
+.cafebaggrund {
+    background-color: #EF562D;
+    width: 100%;
+    height: 1000px;
+    margin:0;
+    padding-top:1.5%;
+    padding-bottom: 1.5%;
+}
