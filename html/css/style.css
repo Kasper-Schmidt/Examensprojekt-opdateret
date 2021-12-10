@@ -988,6 +988,14 @@ table {
           justify-content: center;
 }
 
+.drinkvenstretabel {
+  width: 50%;
+}
+
+.drinkshøjretabel {
+  width: 50%;
+}
+
 #drinkspris {
   font-size: 20px;
   font-family: 'Quicksand', sans-serif;
