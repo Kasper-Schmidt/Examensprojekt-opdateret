@@ -28,7 +28,7 @@ body{
 
 .navigation {
     position: absolute;
-    transform: translate(60px, -160%);
+    transform: translate(40%, -180%);
     
     
 }
@@ -117,6 +117,34 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     
+}
+
+#udstillingknap {
+    opacity: 50%;
+    background-color:#5587A2 ;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    
+    position: absolute;
+    transform: translate(500%, 0);
+
+}
+
+#udstillingknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+    opacity: 75%;
+}
+
+#udstillingknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .headertekststor {
@@ -325,6 +353,33 @@ text-align: center;
 
 }
 
+#omtrapholtknap {
+opacity: 50%;
+background-color:#0C4C8A;
+height: 30px;
+width: 100px;
+border-radius: 50px 50px;
+position: absolute;
+transform: translate(500%, 0);
+color:#000000 ;
+
+}
+
+#omtrapholtknap:hover {
+height: 35px;
+width: 105px;
+position: absolute;
+transform: translate(475%, 0);
+opacity: 75%;
+}
+
+#omtrapholtknap a {
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+}
+
 .trapholttekst {
     color:#F6D258 ;
     font-size: 40px;
@@ -401,6 +456,10 @@ text-align: center;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 10%;
 
+}
+
+.handiogpark {
+    display: flex;
 }
 
 .headerbokshistorie {
@@ -487,6 +546,34 @@ text-align: center;
     margin-bottom: 1.5%;
     font-size: 34;
     font-family: 'Oswald', sans-serif;
+}
+
+#informationknap {
+    opacity: 50%;
+    background-color:#88B14B ;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    
+    position: absolute;
+    transform: translate(500%, 0);
+
+}
+
+#informationknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+    opacity: 75%;
+}
+
+#informationknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .åbningstekst {
@@ -696,6 +783,34 @@ width: 40%;
     margin-bottom: 1.5%;
 }
 
+#cafeknap {
+    opacity: 50%;
+    background-color:#EF562D ;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    
+    position: absolute;
+    transform: translate(500%, 0);
+
+}
+
+#cafeknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+    opacity: 75%;
+}
+
+#cafeknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
 .cafeobservation {
     position: absolute;
     transform: translate(35%, -102.8%);
@@ -727,7 +842,12 @@ width: 40%;
     border-radius: 50px 50px;
     width: 200px;
     height: 60px;
-    margin-left:70%
+    margin-left:70%;
+    opacity:50%;
 
+}
+
+#menukortknap:hover {
+    opacity:75%;
 }
 

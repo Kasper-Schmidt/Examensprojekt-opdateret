@@ -26,8 +26,8 @@ body {
 
 .navigation {
   position: absolute;
-  -webkit-transform: translate(60px, -160%);
-          transform: translate(60px, -160%);
+  -webkit-transform: translate(40%, -180%);
+          transform: translate(40%, -180%);
 }
 
 nav ul {
@@ -106,6 +106,33 @@ nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#udstillingknap {
+  opacity: 50%;
+  background-color: #5587A2;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  -webkit-transform: translate(500%, 0);
+          transform: translate(500%, 0);
+}
+
+#udstillingknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  -webkit-transform: translate(475%, 0);
+          transform: translate(475%, 0);
+  opacity: 75%;
+}
+
+#udstillingknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 .headertekststor {
@@ -328,6 +355,34 @@ nav ul li a {
   text-align: center;
 }
 
+#omtrapholtknap {
+  opacity: 50%;
+  background-color: #0C4C8A;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  -webkit-transform: translate(500%, 0);
+          transform: translate(500%, 0);
+  color: #000000;
+}
+
+#omtrapholtknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  -webkit-transform: translate(475%, 0);
+          transform: translate(475%, 0);
+  opacity: 75%;
+}
+
+#omtrapholtknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
 .trapholttekst {
   color: #F6D258;
   font-size: 40px;
@@ -400,6 +455,12 @@ nav ul li a {
   font-size: 20px;
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 10%;
+}
+
+.handiogpark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .headerbokshistorie {
@@ -499,6 +560,33 @@ nav ul li a {
   margin-top: 1.5%;
   margin-bottom: 1.5%;
   font-size: 34;
+  font-family: 'Oswald', sans-serif;
+}
+
+#informationknap {
+  opacity: 50%;
+  background-color: #88B14B;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  -webkit-transform: translate(500%, 0);
+          transform: translate(500%, 0);
+}
+
+#informationknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  -webkit-transform: translate(475%, 0);
+          transform: translate(475%, 0);
+  opacity: 75%;
+}
+
+#informationknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -717,6 +805,33 @@ table {
   margin-bottom: 1.5%;
 }
 
+#cafeknap {
+  opacity: 50%;
+  background-color: #EF562D;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  -webkit-transform: translate(500%, 0);
+          transform: translate(500%, 0);
+}
+
+#cafeknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  -webkit-transform: translate(475%, 0);
+          transform: translate(475%, 0);
+  opacity: 75%;
+}
+
+#cafeknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
 .cafeobservation {
   position: absolute;
   -webkit-transform: translate(35%, -102.8%);
@@ -751,5 +866,10 @@ table {
   width: 200px;
   height: 60px;
   margin-left: 70%;
+  opacity: 50%;
+}
+
+#menukortknap:hover {
+  opacity: 75%;
 }
 /*# sourceMappingURL=style.css.map */
