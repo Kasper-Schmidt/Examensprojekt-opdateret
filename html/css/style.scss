@@ -330,12 +330,13 @@ text-align: center;
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     width: 60%;
+    
 }
 
 
 .trapholtboks2 {
     margin-top:30px;
-    height: 850px;
+    height: auto;
     width: 100%;
     background-color: #ffffff;
     opacity: 50%;
@@ -345,7 +346,7 @@ text-align: center;
 
 .trapholtvenstre {
     width: 50%;
-    height: 1200px;
+    height: auto;
     margin-left: 100px;
     
 }
@@ -398,6 +399,7 @@ text-align: center;
     color: #000;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10%;
 
 }
 
@@ -414,7 +416,7 @@ text-align: center;
 
 .opahistorie {
     margin-top:30px;
-    height: 1500px;
+    height: auto;
     width: 100%;
     background-color: #ffffff;
     opacity: 50%;
@@ -432,6 +434,7 @@ text-align: center;
     padding-top: 40px;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    width:250px;
 }
 
 .historiehøjre {
@@ -448,6 +451,7 @@ text-align: center;
 .historiebundtekst {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
+    margin-bottom: 10%;
 }
 
 
